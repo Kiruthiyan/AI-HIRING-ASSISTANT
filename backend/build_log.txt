@@ -1,0 +1,301 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.nexuslink:hiring-assistant >-------------------
+[INFO] Building hiring-assistant 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ hiring-assistant ---
+[INFO] Deleting E:\Mini Projects\NexusLink-main\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ hiring-assistant ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ hiring-assistant ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 27 source files with javac [debug release 17] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[8,36] cannot access com.nexuslink.hiring.service.ScoreResult
+  bad source file: E:\Mini Projects\NexusLink-main\backend\src\main\java\com\nexuslink\hiring\service\ScoreResult.java
+    file does not contain class com.nexuslink.hiring.service.ScoreResult
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/ScoreResult.java:[6,8] duplicate class: ScoreResult
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/ScoreResult.java:[3,2] cannot find symbol
+  symbol: class Data
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/ScoreResult.java:[4,2] cannot find symbol
+  symbol: class AllArgsConstructor
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/ScoreResult.java:[5,2] cannot find symbol
+  symbol: class NoArgsConstructor
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/model/User.java:[28,8] com.nexuslink.hiring.model.User is not abstract and does not override abstract method getPassword() in org.springframework.security.core.userdetails.UserDetails
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[26,24] cannot find symbol
+  symbol:   method builder()
+  location: class com.nexuslink.hiring.model.User
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[27,37] cannot find symbol
+  symbol:   method getCompanyName()
+  location: variable request of type com.nexuslink.hiring.controller.RegisterRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[28,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.nexuslink.hiring.controller.RegisterRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[29,57] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.nexuslink.hiring.controller.RegisterRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[34,38] cannot find symbol
+  symbol:   method builder()
+  location: class com.nexuslink.hiring.controller.AuthenticationResponse
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[42,32] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.nexuslink.hiring.controller.AuthenticationRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[43,32] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.nexuslink.hiring.controller.AuthenticationRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[44,50] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.nexuslink.hiring.controller.AuthenticationRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[47,38] cannot find symbol
+  symbol:   method builder()
+  location: class com.nexuslink.hiring.controller.AuthenticationResponse
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[50,17] cannot find symbol
+  symbol:   class ScoreResult
+  location: class com.nexuslink.hiring.controller.CandidateController
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[50,83] cannot find symbol
+  symbol:   method getDescription()
+  location: variable job of type com.nexuslink.hiring.model.Job
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[51,36] cannot find symbol
+  symbol:   method getRequirements()
+  location: variable job of type com.nexuslink.hiring.model.Job
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[53,48] cannot find symbol
+  symbol:   method builder()
+  location: class com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[82,50] cannot find symbol
+  symbol:   method getFullName()
+  location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[82,76] cannot find symbol
+  symbol:   method getFullName()
+  location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[84,50] cannot find symbol
+  symbol:   method getEmail()
+  location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[84,73] cannot find symbol
+  symbol:   method getEmail()
+  location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[86,50] cannot find symbol
+  symbol:   method getPhone()
+  location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[86,73] cannot find symbol
+  symbol:   method getPhone()
+  location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[88,37] cannot find symbol
+  symbol:   method getMatchScore()
+  location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[90,42] cannot find symbol
+  symbol:   method getMatchReasoning()
+  location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[91,60] cannot find symbol
+  symbol:   method getMatchReasoning()
+  location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[95,42] cannot find symbol
+  symbol:   method getSkills()
+  location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[95,66] cannot find symbol
+  symbol:   method getSkills()
+  location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AIService.java:[39,65] cannot find symbol
+  symbol:   method getFilePath()
+  location: variable candidate of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AIService.java:[49,66] cannot find symbol
+  symbol:   method getSkills()
+  location: variable candidate of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AIService.java:[57,48] cannot find symbol
+  symbol:   method getEmail()
+  location: variable candidate of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AIService.java:[57,79] cannot find symbol
+  symbol:   method getPhone()
+  location: variable candidate of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/ChatController.java:[19,55] cannot find symbol
+  symbol:   method getCandidateId()
+  location: variable request of type com.nexuslink.hiring.controller.ChatRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/ChatController.java:[19,81] cannot find symbol
+  symbol:   method getQuestion()
+  location: variable request of type com.nexuslink.hiring.controller.ChatRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/AIController.java:[32,26] cannot find symbol
+  symbol:   method getTitle()
+  location: variable job of type com.nexuslink.hiring.model.Job
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/AIController.java:[33,34] cannot find symbol
+  symbol:   method getRequirements()
+  location: variable job of type com.nexuslink.hiring.model.Job
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[28,22] cannot find symbol
+  symbol:   method builder()
+  location: class com.nexuslink.hiring.model.Job
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[29,31] cannot find symbol
+  symbol:   method getTitle()
+  location: variable request of type com.nexuslink.hiring.controller.JobRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[30,37] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.nexuslink.hiring.controller.JobRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[31,38] cannot find symbol
+  symbol:   method getRequirements()
+  location: variable request of type com.nexuslink.hiring.controller.JobRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[32,37] cannot find symbol
+  symbol:   method getSalaryRange()
+  location: variable request of type com.nexuslink.hiring.controller.JobRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[33,34] cannot find symbol
+  symbol:   method getLocation()
+  location: variable request of type com.nexuslink.hiring.controller.JobRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[44,52] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.nexuslink.hiring.model.User
+[INFO] 45 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.838 s
+[INFO] Finished at: 2026-02-13T16:31:33+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project hiring-assistant: Compilation failure: Compilation failure: 
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[8,36] cannot access com.nexuslink.hiring.service.ScoreResult
+[ERROR]   bad source file: E:\Mini Projects\NexusLink-main\backend\src\main\java\com\nexuslink\hiring\service\ScoreResult.java
+[ERROR]     file does not contain class com.nexuslink.hiring.service.ScoreResult
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/ScoreResult.java:[6,8] duplicate class: ScoreResult
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/ScoreResult.java:[3,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/ScoreResult.java:[4,2] cannot find symbol
+[ERROR]   symbol: class AllArgsConstructor
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/ScoreResult.java:[5,2] cannot find symbol
+[ERROR]   symbol: class NoArgsConstructor
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/model/User.java:[28,8] com.nexuslink.hiring.model.User is not abstract and does not override abstract method getPassword() in org.springframework.security.core.userdetails.UserDetails
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[26,24] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.nexuslink.hiring.model.User
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[27,37] cannot find symbol
+[ERROR]   symbol:   method getCompanyName()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.RegisterRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[28,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.RegisterRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[29,57] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.RegisterRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[34,38] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.nexuslink.hiring.controller.AuthenticationResponse
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[42,32] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.AuthenticationRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[43,32] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.AuthenticationRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[44,50] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.AuthenticationRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AuthenticationService.java:[47,38] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.nexuslink.hiring.controller.AuthenticationResponse
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[50,17] cannot find symbol
+[ERROR]   symbol:   class ScoreResult
+[ERROR]   location: class com.nexuslink.hiring.controller.CandidateController
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[50,83] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable job of type com.nexuslink.hiring.model.Job
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[51,36] cannot find symbol
+[ERROR]   symbol:   method getRequirements()
+[ERROR]   location: variable job of type com.nexuslink.hiring.model.Job
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[53,48] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[82,50] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[82,76] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[84,50] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[84,73] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[86,50] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[86,73] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[88,37] cannot find symbol
+[ERROR]   symbol:   method getMatchScore()
+[ERROR]   location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[90,42] cannot find symbol
+[ERROR]   symbol:   method getMatchReasoning()
+[ERROR]   location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[91,60] cannot find symbol
+[ERROR]   symbol:   method getMatchReasoning()
+[ERROR]   location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[95,42] cannot find symbol
+[ERROR]   symbol:   method getSkills()
+[ERROR]   location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/CandidateController.java:[95,66] cannot find symbol
+[ERROR]   symbol:   method getSkills()
+[ERROR]   location: variable c of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AIService.java:[39,65] cannot find symbol
+[ERROR]   symbol:   method getFilePath()
+[ERROR]   location: variable candidate of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AIService.java:[49,66] cannot find symbol
+[ERROR]   symbol:   method getSkills()
+[ERROR]   location: variable candidate of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AIService.java:[57,48] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable candidate of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/AIService.java:[57,79] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable candidate of type com.nexuslink.hiring.model.Candidate
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/ChatController.java:[19,55] cannot find symbol
+[ERROR]   symbol:   method getCandidateId()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.ChatRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/ChatController.java:[19,81] cannot find symbol
+[ERROR]   symbol:   method getQuestion()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.ChatRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/AIController.java:[32,26] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable job of type com.nexuslink.hiring.model.Job
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/controller/AIController.java:[33,34] cannot find symbol
+[ERROR]   symbol:   method getRequirements()
+[ERROR]   location: variable job of type com.nexuslink.hiring.model.Job
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[28,22] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.nexuslink.hiring.model.Job
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[29,31] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.JobRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[30,37] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.JobRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[31,38] cannot find symbol
+[ERROR]   symbol:   method getRequirements()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.JobRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[32,37] cannot find symbol
+[ERROR]   symbol:   method getSalaryRange()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.JobRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[33,34] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable request of type com.nexuslink.hiring.controller.JobRequest
+[ERROR] /E:/Mini Projects/NexusLink-main/backend/src/main/java/com/nexuslink/hiring/service/JobService.java:[44,52] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.nexuslink.hiring.model.User
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

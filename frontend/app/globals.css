@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 260 100% 99%;
+    --foreground: 260 10% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 260 10% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 260 10% 10%;
+    --primary: 265 80% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 260 20% 96%;
+    --secondary-foreground: 260 10% 10%;
+    --muted: 260 10% 96%;
+    --muted-foreground: 260 10% 45%;
+    --accent: 260 20% 96%;
+    --accent-foreground: 260 10% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 260 20% 90%;
+    --input: 260 20% 90%;
+    --ring: 265 80% 55%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 260 40% 5%;
+    --foreground: 210 40% 98%;
+    --card: 260 30% 10%;
+    --card-foreground: 210 40% 98%;
+    --popover: 260 30% 10%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 265 80% 65%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 260 20% 15%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 260 20% 15%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 260 20% 15%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 260 20% 15%;
+    --input: 260 20% 15%;
+    --ring: 265 80% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: var(--font-poppins), system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white border border-gray-200 shadow-sm;
+  }
+
+  .glass-dark {
+    @apply bg-gray-950 border border-gray-800 shadow-sm;
+  }
+
+  .text-gradient {
+    @apply text-foreground font-semibold;
+    /* Removed gradient for clarity */
+  }
+}
